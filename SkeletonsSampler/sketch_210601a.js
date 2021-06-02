@@ -189,7 +189,6 @@ function draw() {
 }  
 
   if ((songTime > 32) && (songTime < 35))  {
-    push();
     songsk.setVolume(2);
     frameRate(5);
     strokeWeight(5);
@@ -204,7 +203,7 @@ function draw() {
     rotate(volume);
     textAlign(CENTER, CENTER);
     text("Messin' with your conscience", width/2, height/2); 
-    pop();
+   
 }  
 
   if ((songTime > 35) && (songTime < 41)) {
