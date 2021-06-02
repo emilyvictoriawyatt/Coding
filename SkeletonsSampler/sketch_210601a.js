@@ -36,7 +36,7 @@ function draw() {
     noStroke();
     fill(255);
     textAlign(CENTER, CENTER);
-    text("Warning: Sound and strobe lights", width/2, height/2);
+    text("Warning: Sound and strobe lights /n Click to play", width/2, height/2);
   }
       else {
       }
